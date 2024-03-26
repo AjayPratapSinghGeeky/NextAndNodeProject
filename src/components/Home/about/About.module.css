@@ -1,0 +1,27 @@
+
+.aboutPage{
+    padding:10px;
+}
+
+.aboutHeading{
+    margin: 50px;
+    text-align: center;
+    font-weight: 600;
+}
+.aboutCards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.aboutCard1{
+    
+    padding: 20px;
+    background-image: url('https://images.unsplash.com/photo-1502444330042-d1a1ddf9bb5b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM1fHxwZW9wbGUlMjB0aG91Z2h0cyUyMGFuZCUyMHRyYWdlZGllcyUyMHdsbHBhcGVyfGVufDB8fDB8fHww'); 
+    object-fit: cover;
+    color: beige;
+}
+.cardGif1{
+    min-width: 28rem;
+    max-width: 40rem;
+    height: 20rem;
+}

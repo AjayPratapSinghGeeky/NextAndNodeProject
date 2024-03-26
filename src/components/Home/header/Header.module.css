@@ -1,0 +1,15 @@
+.headerMain {
+  color: #fff;
+  background-image: url("https://images.unsplash.com/photo-1484353371297-d8cfd2895020?q=80&w=2079&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: "cover";
+  background-position: "center";
+  object-fit: covers;
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8);
+  position: relative;
+}
+
+.signInBtn {
+  position: absolute;
+  top: 20px; /* Adjust distance from top */
+  right: 20px; /* Adjust distance from right */
+}
