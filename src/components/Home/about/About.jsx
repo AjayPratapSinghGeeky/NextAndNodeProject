@@ -10,11 +10,11 @@ const AboutUs = () => {
         </h2>
         <div className={`${styles.aboutCards}`}>
           <div
-            class={`card ${styles.aboutCard1}`}
-            style={{ "min-width": "28rem", "max-width": "40rem" }}
+            className={`card ${styles.aboutCard1}`}
+            style={{ minWidth: "28rem", maxWidth: "40rem" }}
           >
-            <div class="card-body">
-              <p class="card-text">
+            <div className="card-body">
+              <p className="card-text">
                 At Quirky Adventures Hub, we believe in the power of
                 storytelling to connect, inspire, and guide individuals through
                 the ups and downs of life. We're a vibrant community where
@@ -28,12 +28,23 @@ const AboutUs = () => {
               </p>
             </div>
           </div>
-          <div>
-            <img
-              className={`${styles.cardGif1}`}
-              src="https://connecteddataworld.com/files/dynamicContent/sites/vyu3yw/images/en/webpage_41/lswwl23z/element_770/conntected-data-header.gif"
-              alt=""
-            />
+          <div
+            className={`card ${styles.aboutCard2}`}
+            style={{ minWidth: "28rem", maxWidth: "40rem" }}
+          >
+            <div className="card-body">
+              <p className="card-text">
+                Join a thriving community of storytellers, adventurers, and
+                seekers of inspiration. Engage with fellow members, share your
+                own stories, and participate in discussions that spark
+                creativity and connection. At Quirky Adventures Hub, every voice
+                is valued, and every story is celebrated.Ready to embark on your
+                own quirky adventure? Start exploring our collection of stories
+                now and discover the magic that awaits. Whether you're here to
+                laugh, learn, or simply be inspired, Quirky Adventures Hub is
+                your portal to a world of endless possibilities.
+              </p>
+            </div>
           </div>
         </div>
       </div>

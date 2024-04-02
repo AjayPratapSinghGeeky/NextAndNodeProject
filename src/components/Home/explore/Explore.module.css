@@ -1,0 +1,54 @@
+/* Styles for Explore Container */
+.exploreContainer {
+    margin-top: 20px;
+    text-align: center;
+    background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    padding: 30px;
+}
+
+/* Heading Styles */
+.exploreHeading {
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 4px 4px 6px rgba(255, 255, 255, 0.6);
+}
+
+/* Card Styles */
+.card{
+    width: 25rem;
+}
+
+/* Card Background Images */
+.card1 {
+    background: none;
+    color: azure;
+}
+
+.card2 {
+    background: none;
+    color: azure;
+}
+
+.card3 {
+    background: none;
+    color: azure;
+}
+
+/* Explore Cards Container Styles */
+.exploreCards {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.exploreCards p{
+    font-weight: 600;
+    text-shadow: 4px 4px 6px rgba(255, 255, 255, 0.4);
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+    .card {
+        width: 100%; /* Make cards full width on smaller screens */
+    }
+}

@@ -1,27 +1,56 @@
-
-.aboutPage{
-    padding:10px;
+/* Styles for About Page Container */
+.aboutPage {
+    width: 100%; /* Add padding to the container */
 }
 
-.aboutHeading{
-    margin: 50px;
+/* Heading Styles */
+.aboutHeading {
+    width: 100%;
+    padding: 20px; /* Reduce padding for smaller screens */
     text-align: center;
     font-weight: 600;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5); 
 }
+
 .aboutCards{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
 }
-.aboutCard1{
-    
+/* About Card Styles */
+.aboutCard1 {
     padding: 20px;
-    background-image: url('https://images.unsplash.com/photo-1502444330042-d1a1ddf9bb5b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM1fHxwZW9wbGUlMjB0aG91Z2h0cyUyMGFuZCUyMHRyYWdlZGllcyUyMHdsbHBhcGVyfGVufDB8fDB8fHww'); 
-    object-fit: cover;
-    color: beige;
+    background-image: url('https://blogs.microsoft.com/wp-content/uploads/prod/sites/5/2020/04/HEaderGIFOpenData.gif'); 
+    background-size: cover; /* Ensure the background image covers the entire card */
+    background-position: center; 
+    color: #fff;
+    margin-bottom: 20px; /* Add margin bottom for spacing between cards */
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5); /* Add text shadow */
 }
-.cardGif1{
-    min-width: 28rem;
-    max-width: 40rem;
-    height: 20rem;
+.aboutCards p{
+    font-weight: 600;
+}
+.aboutCard2 {
+    padding: 20px;
+    background-image: url('https://media.licdn.com/dms/image/C4E22AQGOPEfPL-RfJw/feedshare-shrink_2048_1536/0/1574016062671?e=2147483647&v=beta&t=4q1l5P_OnSFBKFk3XCfNYRSyyGJQzdMeyTVk6_0cZUY'); 
+    object-fit: cover;
+    color: #000;
+    margin-bottom: 20px; /* Add margin bottom for spacing between cards */
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5); /* Add text shadow */
+    font-weight: 600; /* Set font weight */
+}
+
+
+/* Media Query for Responsive Design */
+@media (min-width: 768px) {
+    .aboutCards {
+        flex-direction: row; /* Change back to row for larger screens */
+    }
+
+    .aboutCard1 {
+        width: calc(50% - 40px); /* Adjust card width for larger screens */
+        margin-right: 20px; /* Add margin right for spacing between cards */
+    }
+
 }
