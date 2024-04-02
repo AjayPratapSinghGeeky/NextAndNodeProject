@@ -11,7 +11,7 @@ const AboutUs = () => {
         <div className={`${styles.aboutCards}`}>
           <div
             className={`card ${styles.aboutCard1}`}
-            style={{ minWidth: "28rem", maxWidth: "40rem" }}
+           
           >
             <div className="card-body">
               <p className="card-text">
@@ -30,7 +30,7 @@ const AboutUs = () => {
           </div>
           <div
             className={`card ${styles.aboutCard2}`}
-            style={{ minWidth: "28rem", maxWidth: "40rem" }}
+           
           >
             <div className="card-body">
               <p className="card-text">

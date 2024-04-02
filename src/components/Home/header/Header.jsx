@@ -1,5 +1,5 @@
-import styles from "./Header.module.css"
 
+import styles from "./Header.module.css"
 const Header = () => {
   return (
     <>
@@ -10,10 +10,10 @@ const Header = () => {
             Sharing Increase Love and Caring
           </h3>
           <div className="btn">
-          <button type="button" class={`btn btn-secondary  btn-lg ${styles.postBlogBtn}`}>Post Your Story</button>
+          <button type="button" className={`btn btn-secondary  btn-lg ${styles.postBlogBtn}`}>Post Your Story</button>
           </div>
           <div className={`${styles.signInBtn}`}>
-          <button type="button" class="btn btn-primary btn-sm">Sign In</button>
+          <button type="button" className="btn btn-primary btn-sm">Sign In</button>
           </div>
         </div>
       </div>

@@ -33,12 +33,12 @@
 }
 .aboutCard2 {
     padding: 20px;
-    background-image: url('https://media.licdn.com/dms/image/C4E22AQGOPEfPL-RfJw/feedshare-shrink_2048_1536/0/1574016062671?e=2147483647&v=beta&t=4q1l5P_OnSFBKFk3XCfNYRSyyGJQzdMeyTVk6_0cZUY'); 
-    object-fit: cover;
-    color: #000;
+    background-image: url('https://blogs.microsoft.com/wp-content/uploads/prod/sites/5/2020/04/HEaderGIFOpenData.gif'); 
+    background-size: cover; /* Ensure the background image covers the entire card */
+    background-position: center; 
+    color: #fff;
     margin-bottom: 20px; /* Add margin bottom for spacing between cards */
     text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5); /* Add text shadow */
-    font-weight: 600; /* Set font weight */
 }
 
 
@@ -49,6 +49,10 @@
     }
 
     .aboutCard1 {
+        width: calc(50% - 40px); /* Adjust card width for larger screens */
+        margin-right: 20px; /* Add margin right for spacing between cards */
+    }
+    .aboutCard2 {
         width: calc(50% - 40px); /* Adjust card width for larger screens */
         margin-right: 20px; /* Add margin right for spacing between cards */
     }
